@@ -461,18 +461,21 @@
             </li>
           </ul>
         </div>
-        <div class="end-footer">
-          <label class="label-end-footer" for="subscribe">Subscribe</label>
-          <div class="footer-input-group">
-            <input id="subscribe" class="footer-input" type="text" placeholder="Email">
-            <button type="button" class="footer-btn">
-              <span class="footer-btn--text">Subscribe</span>
-              <svg width="24" height="20">
+        <div class="footer-form-container">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="footer-label" for="subscribe-email">
+              <input id="subscribe-email" name="email-address" class="footer-input" type="email" placeholder="E-mail">
+            </label>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg width="24" height="24" class="footer-icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
+        
         
       </div>
     </footer>

@@ -528,55 +528,64 @@ body {
 
 
 
-.end-footer {
+.footer-form-container {
   display: flex;
-  flex-direction: column; /* Располагаем элементы вертикально */
+  flex-direction: column;
 }
 
-.label-end-footer {
-  margin-bottom: 8px; /* Отступ между текстом и инпутом */
+.footer-subscribe-text {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
 }
 
-.footer-input-group {
+.footer-subscribe-form {
   display: flex;
-  align-items: center; /* Выровнять инпут и кнопку по вертикали */
-  gap: 16px; /* Отступ между инпутом и кнопкой */
+  gap: 24px;
+}
+
+.footer-label {
+  display: block;
 }
 
 .footer-input {
-  border: 1px solid #fff;
-  border-radius: 4px;
   width: 264px;
   height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #2e2f42;
-  color: #fff;
-  font-weight: 400;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  padding: 8px 16px;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .footer-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  background: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
   border: none;
-  color: #fff;
+  border-radius: 4px;
 }
 
+.footer-icon {
+  margin-left: 16px;
+}
 
 
 /* backdrop-model */
