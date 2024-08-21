@@ -480,7 +480,7 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button class="close-modal-btn" type="button">
-          <svg width="8px" height="8px">
+          <svg class="close-modal--svg" width="8px" height="8px">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -489,7 +489,7 @@
           <div class="form-wrapper-cont">
             <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-cont-input">
-              <input class="modal-input" type="text" id="user-name" required />
+              <input class="modal-input" type="text" id="user-name" name="user-name" required />
               <svg width="18" height="18" class="modal-icon">
                 <use href="./images/icons.svg#icon-users"></use>
               </svg>
@@ -498,7 +498,7 @@
           <div class="form-wrapper-cont">
             <label class="modal-form-label" for="user-tel">Phone</label>
             <div class="modal-cont-input">
-              <input class="modal-input" type="tel" id="user-tel" required />
+              <input class="modal-input" type="tel" id="user-tel" name="user-tel" required />
               <svg width="18" height="24" class="modal-icon">
                 <use href="./images/icons.svg#icon-tel"></use>
               </svg>
@@ -511,6 +511,7 @@
                 class="modal-input"
                 type="email"
                 id="user-email"
+                name="user-email"
                 required
               />
               <svg width="18" height="24" class="modal-icon">
@@ -523,7 +524,6 @@
             <label class="modal-form-label-coment" for="user-coment">Comment</label>
             <textarea
               class="modal-textarea"
-              name=""
               id="user-coment"
               placeholder="Text input"
             ></textarea>
